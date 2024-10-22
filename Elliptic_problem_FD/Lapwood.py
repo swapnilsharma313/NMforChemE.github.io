@@ -7,13 +7,7 @@ Created on Wed Jan 17 17:46:18 2024
 
 #We are solving the steady state lapwood convection problem.
 
-# We are using pseudo-transient method to solve this elliptic equation. 
-#The reason is as follows:
-#In IVP problems, initial conditions don't matter for convergence to 'a solution', only time-step does. 
-#As long as Lipschitz criteria is met, we will get 'a solution' for a given set of initial conditions
-# whereas in solving non-linear set of equations directly, we will need a good initial guess to converge.
-#For complex problems, giving a good initial guess might be more tedious or not possible at all
-#because we don't know apriori what the solution might look like.  
+# We are using pseudo-transient method to solve this elliptic equation.   
 
 import numpy as np
 import matplotlib.pyplot as plt
