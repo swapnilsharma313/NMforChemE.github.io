@@ -79,7 +79,7 @@ for i in range(0,N-3):
     
 #%%    
 #Method-2 for making the coefficient matrix
-#The coefficient matrix of the Laplacian operator can be represented as a kronecker product
+#The coefficient matrix of the Laplacian operator can be represented using kronecker product
 
 def create_poisson_matrix(nx, ny):
 
