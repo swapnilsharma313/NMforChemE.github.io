@@ -1,0 +1,5 @@
+Run the following code in your Spyder terminal to install scikits.odes
+
+conda install conda-forge::scikits.odes
+
+Reference: https://anaconda.org/conda-forge/scikits.odes
